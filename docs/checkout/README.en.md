@@ -331,7 +331,7 @@ Do not forget to use getOrderForm first.
 
 ### **Example**
 
-``html
+```js
 vtexjs.checkout.removeAllItems()
 .done(function(orderForm) {
 alert('Empty cart.');
